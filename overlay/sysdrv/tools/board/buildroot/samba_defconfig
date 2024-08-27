@@ -1,0 +1,16 @@
+[global]
+client min protocol = CORE
+client max protocol = NT1
+server max protocol = SMB3
+server min protocol = LANMAN1
+strict sync = no
+keepalive = 0
+
+[PS2SMB]
+   comment = PS2 SMB
+    path = /mnt/sdcard
+    browseable = yes
+    read only = no
+    guest ok = yes
+    public = yes
+    available = yes
